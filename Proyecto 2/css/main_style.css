@@ -1,0 +1,117 @@
+@import url(menu.css);
+
+*{box-sizing: border-box;}
+
+body, header, main, footer{width: 100%;}
+
+body{
+    height: auto;
+    margin: 0;
+    font-family:calibri;
+}
+
+header{
+    height: 400px;
+    background-color: #ccc;
+    background-image: url(../imagenes/venda.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;    
+}
+
+header #logo{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+#logo img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    height: 600px;
+    background-color: #ccc;
+    padding: 35px;
+    position: relative;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .bloque{
+    height: 550px;
+    background-color: #fff;
+}
+
+main .bloque:first-child{width: 25%;}
+
+main .bloque:nth-child(2){
+    width: 45%;
+    background-image: url(../imagenes/mma.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+main .bloque:last-child{
+  width: 25%;
+}
+
+#placa{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    position: absolute;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#placa h3, #placa p{color: white; text-align: center; margin-top: 0;}
+
+#placa h3{font-size: 32px; text-shadow: 0 8px 6px rgba(0, 0, 0, 0.9);}
+#placa p{font-size: 20px;}
+
+#placa a{color: white; text-decoration: none; font-weight: bold;}
+#placa a:hover{color: yellow; text-decoration: underline;}
+
+
+footer{
+    height: 500px;
+    background-color: black;
+    padding-top: 15px;
+}
+
+
+footer #loguito{
+    width: 128px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#loguito img{
+    width: 100%;
+    height: auto;
+}
+
+
+#media{
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 0;
+    border: 1px solid #fff;
+}
+
+#media video{
+    width: 100%;
+    height: auto;
+}
