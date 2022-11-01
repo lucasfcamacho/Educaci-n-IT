@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    margin: 0;
+    border-top: 10px solid #FCEE21;
+    font-size: 70%;
+    
+}
+nav,header,main{
+    width: 85%;
+    margin: 40px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between
+}
+nav h1 , h1 strong ,footer h1 {
+    font-family: 'Coiny', cursive;
+    
+}
+nav h1{
+    font-size: 3.5em;
+}
+a , header h2 , ol ,footer {
+
+    font-weight: 400;
+    
+}
+header h2{
+    font-size: 1.68em;
+    background-color: #FCEE21;
+    display: inline-block;
+}
+a , p , ol{
+    font-size: 2em;
+}
+
+
+main p{
+    font-size: 1.75em;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #292929;
+}
+
+h1 , p strong , h2 , h4 , .contenedor2 p , label , button{
+    font-weight: 700;
+}
+
+header h1{
+    font-size: 4em;
+    margin: 0 auto;
+}
+h1 strong{
+    
+    font-size: 7.31rem;
+    
+}
+
+h3{
+    font-weight: 900;
+    font-size: 2.18em;
+    background-color: #FCEE21;
+    display: inline-block;
+    margin: 0;
+}
+
+
+h2{
+    font-size: 3.43em;
+}
+
+header section , nav section {
+    width: 42%;
+    
+}
+header section + section{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+header , main section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main div{
+    width: 42%;
+}
+
+h4{
+    font-size: 4.25em;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+
+}
+h5{
+    font-size: 2.75em;
+    background-color: #FCEE21;
+    display: inline-block;
+}
+
+main section{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid #292929;
+}
+.contenedor{
+    
+    justify-content: space-between;
+    
+}
+.contenedor div{
+    width: 46%;
+}
+
+ol{
+    padding-inline-start: 0;
+    list-style-position: inside;
+}
+li{
+    margin-top: 20px;
+}
+
+.color{
+    font-size: 1.92rem;
+    background-color: #FCEE21;
+}
+
+.contenedor2 div{
+    width: 8.33%;
+    
+}
+#redes{
+    justify-content: space-around;
+    border: none;
+    
+}
+#redes img{
+    width: 50%;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+
+#formulario{
+    border: none;
+    justify-content: space-between;
+}
+
+.divform{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor2 p{
+    font-size: 2.06em;
+    color: #808080;
+}
+
+input , textarea{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 24em;
+}
+
+textarea{
+    height: 6.5em;
+    resize: none;
+}
+
+input , button{
+    
+    height: 2.18em;
+}
+
+label{
+    font-size: 1.68em;
+}
+
+span{
+    color: #BF2026;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    border: none;
+    width: 100%;
+}
+
+form section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+}
+
+form div {
+    width: auto;
+    display: inline-block;
+}
+
+footer {
+    background-color: #FCEE21;
+}
+
+footer h1{
+    display: inline-block;
+    margin: 0 40px 0 60px ;
+    
+}
+
