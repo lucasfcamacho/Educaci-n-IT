@@ -1,2 +1,2 @@
-# Educaci-n-IT
+# EducacionIT
 Desarrollo Web con HTML y CSS
